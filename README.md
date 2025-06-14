@@ -2,14 +2,47 @@
 
 body {
   font-family: 'Cherry Swash', cursive;
-  background: #ffe6f0;
-  color: #4b0082;
+  margin: 0;
+  padding: 0;
+  background: #fff0f5; /* light candy pink */
+  color: #4b0082; /* deep purple text */
 }
 
 header {
-  background: linear-gradient(to right, #ff66cc, #ffccff);
-  border-bottom: 4px dashed #ff99cc;
+  background: linear-gradient(to right, #ff66cc, #ffccff); /* pink gradient */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px dashed #ff99cc; /* candy-stripe bottom border */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #d63384;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #4b0082;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ff3399;
+}
+
+main {
+  padding: 30px;
+}
+
 
 <!DOCTYPE html>
 <html lang="en">
