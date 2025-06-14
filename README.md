@@ -11,7 +11,6 @@
     <h1>🍭 YumMaze</h1>
     <nav>
       <a href="index.html">Maze</a>
-      <a href="<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -125,8 +124,6 @@
     <h2>Maze</h2>
     <p>Welcome to the maze! Navigate your way through our sweet candy-themed puzzle adventure!</p>
   </main>
-</body>
-</html>
 
 <html lang="en">
 <head>
