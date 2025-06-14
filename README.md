@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
+
+body {
+  font-family: 'Cherry Swash', cursive;
+  background: #ffe6f0;
+  color: #4b0082;
+}
+
+header {
+  background: linear-gradient(to right, #ff66cc, #ffccff);
+  border-bottom: 4px dashed #ff99cc;
+}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
