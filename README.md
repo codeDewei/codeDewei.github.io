@@ -23,7 +23,6 @@
 </body>
 </html>
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -48,7 +47,6 @@
 </body>
 </html>
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -165,7 +163,7 @@
 </head>
 <body>
   <header>
-    <h1>🍭 YumMaze</h1>
+    <h1></h1>
     <nav>
       <a href="index.html">Maze</a>
       <a href="game.html">Game</a>
