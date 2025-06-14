@@ -62,7 +62,7 @@
     <h1>🍭 YumMaze</h1>
     <nav>
       <a href="index.html">Maze</a>
-      <a href="<!DOCTYPE html>
+     
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
