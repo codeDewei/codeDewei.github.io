@@ -68,48 +68,8 @@
 
   <main>
     <h2>Materials</h2>
-    <p>Check out what you need to build your own YumMaze: printables, cutouts, and crafting tools!</p>
+    <p>To bring YumMaze to life, we used a playful mix of strong and shiny materials. The main structure of the maze is crafted from <strong>timber</strong>, giving it a sturdy base that holds everything together. To add a touch of fun and visibility, we used clear <strong>perspex</strong> panels—so you can peek into the maze while solving it!</p>
   </main>
 </body>
 </html>
 
-body {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #fff0f5;
-  color: #4b0082;
-}
-
-header {
-  background: linear-gradient(to right, #ffaaff, #ffccff);
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-h1 {
-  margin: 0;
-  font-size: 2.5em;
-  color: #d63384;
-}
-
-nav {
-  margin-top: 10px;
-}
-
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #4b0082;
-  font-weight: bold;
-  font-size: 1.1em;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-main {
-  padding: 30px;
-}
