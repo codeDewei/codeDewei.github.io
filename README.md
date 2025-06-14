@@ -275,11 +275,7 @@
 <body>
   <header>
     <h1>🍭 YumMaze</h1>
-    <nav>
-      <a href="index.html">Maze</a>
-      <a href="game.html">Game</a>
-      <a href="materials.html">Materials</a>
-    </nav>
+  
   </header>
 
   <main>
