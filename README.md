@@ -1,3 +1,6 @@
+![Uploading image.png…]()
+
+
 
 <html lang="en">
 <head>
@@ -115,11 +118,6 @@
 <body>
   <header>
     <h1>🍭 YumMaze</h1>
-    <nav>
-      <a href="index.html">Maze</a>
-      <a href="game.html">Game</a>
-      <a href="materials.html">Materials</a>
-    </nav>
   <main>
     <h2>Maze</h2>
     <p>Welcome to the maze! Navigate your way through our sweet candy-themed puzzle adventure!</p>
