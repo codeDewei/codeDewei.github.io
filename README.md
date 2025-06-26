@@ -1,409 +1,281 @@
-![Uploading image.png…]()
-
-
-
+project-folder/
+├── index.html
+├── style.css
+├── images/
+│   ├── profile.jpg
+│   ├── project1.jpg
+│   └── project2.jpg
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>YumMaze - Maze</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeDewei Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>🍭 YumMaze</h1>
-    <nav>
-      <a href="index.html">Maze</a>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>YumMaze - Game</title>
-  <style>
-    body {
-      font-family: 'Cherry Swash', cursive, sans-serif;
-      background: #fff0f5;
-      color: #4b0082;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
-    }
-    header {
-      background: linear-gradient(to right, #ff66cc, #ffccff);
-      padding: 20px;
-      width: 100%;
-      text-align: center;
-      border-bottom: 4px dashed #ff99cc;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      margin-bottom: 20px;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #4b0082;
-      font-weight: bold;
-      font-size: 1.2em;
-    }
-    nav a:hover {
-      text-decoration: underline;
-      color: #ff3399;
-    }
-    h1 {
-      margin: 0;
-      font-size: 2.5em;
-      color: #d63384;
-    }
-    #maze {
-      display: grid;
-      grid-template-columns: repeat(10, 40px);
-      grid-template-rows: repeat(10, 40px);
-      gap: 2px;
-      user-select: none;
-    }
-    .cell {
-      width: 40px;
-      height: 40px;
-      background-color: #d9b3ff; /* light purple */
-      border-radius: 6px;
-      box-sizing: border-box;
-      position: relative;
-    }
-    .wall {
-      background-color: #6a0dad; /* dark purple wall */
-    }
-    .player {
-      background-color: #ff66cc; /* pink player */
-      border-radius: 8px;
-      box-shadow: 0 0 10px #ff99cc;
-      transition: background-color 0.3s;
-    }
-    .goal {
-      background-color: #32cd32; /* lime green goal */
-      border-radius: 6px;
-      box-shadow: 0 0 10px #90ee90;
-    }
-    #instructions {
-      margin-top: 20px;
-      font-size: 1.1em;
-      max-width: 400px;
-      text-align: center;
-      color: #4b0082;
-    }
-    #win-message {
-      margin-top: 20px;
-      font-size: 1.5em;
-      color: #32cd32;
-      font-weight: bold;
-      display: none;
-    }
-    button#restart {
-      margin-top: 15px;
-      padding: 10px 20px;
-      font-size: 1em;
-      background: #ff66cc;
-      border: none;
-      border-radius: 8px;
-      color: white;
-      cursor: pointer;
-      box-shadow: 0 4px 6px rgba(255,102,204,0.5);
-      transition: background 0.3s;
-    }
-    button#restart:hover {
-      background: #ff3399;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>🍭 YumMaze</h1>
-  <main>
-    <h2>Maze</h2>
-    <p>Welcome to the maze! Navigate your way through our sweet candy-themed puzzle adventure!</p>
-  </main>
+    <header>
+        <nav>
+            <div class="logo">CodeDewei</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>YumMaze - Game</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>🍭 YumMaze</h1>
-  
-  </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a passionate developer specializing in web applications.</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </section>
 
-  <main>
-    <h2>Game</h2>
-    <p>Play fun mini-games and puzzles! Sweet rewards await!</p>
-  </main>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="images/profile.jpg" alt="Profile Picture">
+            <p>
+                Hello! I'm CodeDewei, a developer with a knack for creating dynamic and responsive web applications. With a strong foundation in HTML, CSS, and JavaScript, I build user-friendly interfaces and seamless user experiences.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-cards">
+            <div class="card">
+                <img src="images/project1.jpg" alt="Project 1">
+                <h3>YumMaze</h3>
+                <p>A fun and interactive game that challenges your maze-solving skills.</p>
+                <a href="https://codedewei.github.io/YumMaze" target="_blank">View Project</a>
+            </div>
+            <div class="card">
+                <img src="images/project2.jpg" alt="Project 2">
+                <h3>Project Two</h3>
+                <p>A web application that streamlines task management for teams.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CodeDewei. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>YumMaze - Materials</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>🍭 YumMaze</h1>
-    <nav>
-      <a href="index.html">Maze</a>
-     
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>YumMaze - Game</title>
-  <style>
-    body {
-      font-family: 'Cherry Swash', cursive, sans-serif;
-      background: #fff0f5;
-      color: #4b0082;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
-    }
-    header {
-      background: linear-gradient(to right, #ff66cc, #ffccff);
-      padding: 20px;
-      width: 100%;
-      text-align: center;
-      border-bottom: 4px dashed #ff99cc;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      margin-bottom: 20px;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #4b0082;
-      font-weight: bold;
-      font-size: 1.2em;
-    }
-    nav a:hover {
-      text-decoration: underline;
-      color: #ff3399;
-    }
-    h1 {
-      margin: 0;
-      font-size: 2.5em;
-      color: #d63384;
-    }
-    #maze {
-      display: grid;
-      grid-template-columns: repeat(10, 40px);
-      grid-template-rows: repeat(10, 40px);
-      gap: 2px;
-      user-select: none;
-    }
-    .cell {
-      width: 40px;
-      height: 40px;
-      background-color: #d9b3ff; /* light purple */
-      border-radius: 6px;
-      box-sizing: border-box;
-      position: relative;
-    }
-    .wall {
-      background-color: #6a0dad; /* dark purple wall */
-    }
-    .player {
-      background-color: #ff66cc; /* pink player */
-      border-radius: 8px;
-      box-shadow: 0 0 10px #ff99cc;
-      transition: background-color 0.3s;
-    }
-    .goal {
-      background-color: #32cd32; /* lime green goal */
-      border-radius: 6px;
-      box-shadow: 0 0 10px #90ee90;
-    }
-    #instructions {
-      margin-top: 20px;
-      font-size: 1.1em;
-      max-width: 400px;
-      text-align: center;
-      color: #4b0082;
-    }
-    #win-message {
-      margin-top: 20px;
-      font-size: 1.5em;
-      color: #32cd32;
-      font-weight: bold;
-      display: none;
-    }
-    button#restart {
-      margin-top: 15px;
-      padding: 10px 20px;
-      font-size: 1em;
-      background: #ff66cc;
-      border: none;
-      border-radius: 8px;
-      color: white;
-      cursor: pointer;
-      box-shadow: 0 4px 6px rgba(255,102,204,0.5);
-      transition: background 0.3s;
-    }
-    button#restart:hover {
-      background: #ff3399;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1></h1>
-  </header>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
 
-  <main>
-    <h2>Maze Game</h2>
-    <div id="maze" aria-label="Maze game grid" role="grid"></div>
-    <div id="instructions">
-      Use arrow keys (← ↑ → ↓) to move the pink candy block to the green goal.
-    </div>
-    <div id="win-message">🎉 You won! Sweet job! 🍬</div>
-    <button id="restart" aria-label="Restart maze game">Restart Game</button>
-  </main>
+/* Navigation */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
 
-  <script>
-    const mazeElement = document.getElementById('maze');
-    const winMessage = document.getElementById('win-message');
-    const restartBtn = document.getElementById('restart');
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
 
-    // Maze layout:
-    // 0 = open path, 1 = wall, 2 = goal
-    // 10x10 grid
-    const mazeLayout = [
-      [0,0,0,1,0,0,0,1,0,2],
-      [1,1,0,1,0,1,0,1,0,1],
-      [0,0,0,0,0,1,0,0,0,1],
-      [0,1,1,1,0,1,1,1,0,1],
-      [0,1,0,0,0,0,0,1,0,0],
-      [0,1,0,1,1,1,0,1,1,0],
-      [0,0,0,0,0,0,0,0,1,0],
-      [1,1,1,1,1,1,1,0,1,0],
-      [0,0,0,0,0,0,0,0,1,0],
-      [0,1,1,1,1,1,1,1,1,0],
-    ];
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
 
-    // Player starting position
-    let playerPos = { row: 0, col: 0 };
+.nav-links {
+    list-style: none;
+    display: flex;
+}
 
-    // Create maze cells
-    function createMaze() {
-      mazeElement.innerHTML = '';
-      for (let r=0; r<mazeLayout.length; r++) {
-        for (let c=0; c<mazeLayout[r].length; c++) {
-          const cell = document.createElement('div');
-          cell.classList.add('cell');
-          if (mazeLayout[r][c] === 1) cell.classList.add('wall');
-          if (mazeLayout[r][c] === 2) cell.classList.add('goal');
-          cell.setAttribute('data-row', r);
-          cell.setAttribute('data-col', c);
-          mazeElement.appendChild(cell);
-        }
-      }
-    }
+.nav-links li {
+    margin-left: 20px;
+}
 
-    // Draw player position
-    function drawPlayer() {
-      // Remove old player
-      document.querySelectorAll('.player').forEach(el => el.classList.remove('player'));
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
 
-      // Add player to new position
-      const cells = document.querySelectorAll('.cell');
-      for (const cell of cells) {
-        const r = parseInt(cell.getAttribute('data-row'));
-        const c = parseInt(cell.getAttribute('data-col'));
-        if (r === playerPos.row && c === playerPos.col) {
-          cell.classList.add('player');
-          break;
-        }
-      }
-    }
+.nav-links a:hover {
+    text-decoration: underline;
+}
 
-    // Check if move is valid
-    function canMoveTo(row, col) {
-      if (row < 0 || row >= mazeLayout.length) return false;
-      if (col < 0 || col >= mazeLayout[0].length) return false;
-      if (mazeLayout[row][col] === 1) return false;
-      return true;
-    }
+/* Hero Section */
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
-    // Check if player is on goal
-    function checkWin() {
-      if (mazeLayout[playerPos.row][playerPos.col] === 2) {
-        winMessage.style.display = 'block';
-      }
-    }
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
 
-    // Move player based on key pressed
-    function movePlayer(e) {
-      if (winMessage.style.display === 'block') return; // stop if won
+.hero-content h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
 
-      let newRow = playerPos.row;
-      let newCol = playerPos.col;
+.hero-content p {
+    color: #ddd;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
 
-      switch(e.key) {
-        case 'ArrowUp':
-          newRow--;
-          break;
-        case 'ArrowDown':
-          newRow++;
-          break;
-        case 'ArrowLeft':
-          newCol--;
-          break;
-        case 'ArrowRight':
-          newCol++;
-          break;
-        default:
-          return; // ignore other keys
-      }
+.btn {
+    background-color: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
-      if (canMoveTo(newRow, newCol)) {
-        playerPos = { row: newRow, col: newCol };
-        drawPlayer();
-        checkWin();
-      }
-    }
+.btn:hover {
+    background-color: #cf3e17;
+}
 
-    // Restart game
-    function restartGame() {
-      playerPos = { row: 0, col: 0 };
-      drawPlayer();
-      winMessage.style.display = 'none';
-    }
+/* About Section */
+.about {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
 
-    // Init
-    createMaze();
-    drawPlayer();
+.about-content {
+    max-width: 800px;
+    margin: auto;
+}
 
-    // Event listeners
-    window.addEventListener('keydown', movePlayer);
-    restartBtn.addEventListener('click', restartGame);
-  </script>
-</body>
-</html>
-">Game</a>
-      <a href="materials.html">Materials</a>
-    </nav>
-  </header>
+.about-content img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
 
-  <main>
-    <h2>Materials</h2>
-    <p>To bring YumMaze to life, we used a playful mix of strong and shiny materials. The main structure of the maze is crafted from <strong>timber</strong>, giving it a sturdy base that holds everything together. To add a touch of fun and visibility, we used clear <strong>perspex</strong> panels—so you can peek into the maze while solving it!</p>
-  </main>
-</body>
-</html>
+/* Projects Section */
+.projects {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
 
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
 
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
 
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
 
+.card h3 {
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card a {
+    color: #e8491d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact button {
+    padding: 10px;
+    background-color: #e8491d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #cf3e17;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
