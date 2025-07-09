@@ -131,7 +131,7 @@
 </html>
             </h2>
     <h1> The materials we have used for our mazes </h1>
-        
+        <h2>The maze is constructed using wooden timber and perspex, combining durability with a modern aesthetic. The timber forms the sturdy framework and structural base, offering a natural, tactile feel. Perspex panels are used for clear barriers or viewing windows, adding a sleek, transparent element that enhances visibility while maintaining strength and safety. Together, these materials create a visually appealing and robust design suitable for interactive play and display.</h2>
         
         
         
