@@ -129,9 +129,8 @@
   </script>
 </body>
 </html>
-
             </h2>
-        
+    <h1> The materials we have used for our mazes </h1>
         
         
         
