@@ -134,9 +134,8 @@
             </h2>
     <h1> The materials we have used for our mazes </h1>
         <h2>The maze is constructed using wooden timber and perspex, combining durability with a modern aesthetic. The timber forms the sturdy framework and structural base, offering a natural, tactile feel. Perspex panels are used for clear barriers or viewing windows, adding a sleek, transparent element that enhances visibility while maintaining strength and safety. Together, these materials create a visually appealing and robust design suitable for interactive play and display.</h2>
-        
-        
-        
+    <h1>YumMaze around the world </h1>
+        <h2>My maze has been published and shared all around the world, reaching people from different countries and cultures. What started as a simple idea has now become a global experience, with players everywhere enjoying the challenge and creativity behind it. From schools and exhibitions to websites and social media, the maze has gained attention for its unique design and fun gameplay. It’s exciting to know that something I created is being explored by people across the globe, inspiring curiosity and imagination wherever it goes.</h2>
         </body>
 
         
