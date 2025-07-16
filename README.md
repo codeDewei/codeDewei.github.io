@@ -2,7 +2,7 @@
 <html>
     <head></head>
         <body> 
-        <h1> A overview of all maze company</h1>
+        <h1> An overview of all maze company</h1>
             <h2>The maze is constructed using wooden timber and perspex, combining durability with a modern aesthetic. The timber forms the sturdy framework and structural base, offering a natural, tactile feel. Perspex panels are used for clear barriers or viewing windows, adding a sleek, transparent element that enhances visibility while maintaining strength and safety. Together, these materials create a visually appealing and robust design suitable for interactive play and display.</h2>
         <h1> Check out our brand new maze from <strong>YumMaze</strong></h1>
             <h2> Take a look at our newest design the <em>lolly crush</em></h2>
